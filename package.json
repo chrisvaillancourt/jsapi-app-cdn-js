@@ -6,7 +6,7 @@
     "build": "rollup -c --environment BUILD:production",
     "start": "rollup -cw  --environment BUILD:development",
     "test": "jest",
-    "deploy": "gh-pages -d output/dist"
+    "deploy": "gh-pages -d /output/dist"
   },
   "babel": {
     "presets": [
